@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
+  m_Name: Move Fence
+  m_EditorClassIdentifier: 
+  type: 1
+  startsOn: 1
+  inventoryName: 
+  inventoryIcon: {fileID: 0}
+  requirements:
+  - {fileID: 11400000, guid: 851561753599b4c40bd97a3d22bd6fe1, type: 2}
+  - {fileID: 11400000, guid: c614cc7bbcc3ef744bcf1111c0ab3003, type: 2}
+  - {fileID: 11400000, guid: 2574c386bbb85da48b6b977d58a49f2c, type: 2}
+  - {fileID: 11400000, guid: daf204c24ca1101419ac25db319acd9c, type: 2}
+  - {fileID: 11400000, guid: 6c412a6bb47b8f847bf698c17cd7b174, type: 2}
+  - {fileID: 11400000, guid: 58207a4b4a47ddb4fb7cf866356fbbc1, type: 2}
+  - {fileID: 11400000, guid: 38bfb29c09b876644ad0ff4e41f2c265, type: 2}
+  - {fileID: 11400000, guid: e68cac653d6967140a3e6dc2c998a37f, type: 2}
+  requirementsMessage: Have to disable Cameras first.
+  interactionMessages:
+  - I can move it away now.
