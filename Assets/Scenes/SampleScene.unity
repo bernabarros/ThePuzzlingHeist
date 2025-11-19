@@ -5086,7 +5086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uiManager: {fileID: 1097666025}
-  _maxInteractionDistance: 1.5
+  _maxInteractionDistance: 2
 --- !u!114 &967098591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7785,7 +7785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecc2e213c6761c489a1b878de57f0ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactiveData: {fileID: 11400000, guid: 238eb8b961685d7428dcc37b8de360bb, type: 2}
+  _interactiveData: {fileID: 11400000, guid: 628655e75649097489ef1d76191ae1f8, type: 2}
   isOn: 0
 --- !u!95 &1303685522
 Animator:
@@ -10239,6 +10239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a5ce85998a38f6b4d9d8860ac8fcf217, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10843,6 +10847,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bd02f1099d539944cb2053c0e10a995e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1834243601}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bd02f1099d539944cb2053c0e10a995e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1834243604}
   m_SourcePrefab: {fileID: 100100000, guid: bd02f1099d539944cb2053c0e10a995e, type: 3}
 --- !u!4 &1834243597 stripped
 Transform:
@@ -10892,6 +10899,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1834243604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789795901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecc2e213c6761c489a1b878de57f0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactiveData: {fileID: 11400000, guid: 1492a1718d8de67439ae9811027333e7, type: 2}
+  isOn: 0
 --- !u!1 &1840550233 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e5626113dc4dda49a6980bb551e9aa8, type: 3}
