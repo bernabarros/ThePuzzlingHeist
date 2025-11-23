@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   startsOn: 1
-  inventoryName: 
+  inventoryName: Crown
   inventoryIcon: {fileID: 0}
   requirements:
   - {fileID: 11400000, guid: e81ce561ba7b2e846be770b7090616e8, type: 2}

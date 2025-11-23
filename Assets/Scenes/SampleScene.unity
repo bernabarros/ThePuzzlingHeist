@@ -6398,7 +6398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3283019, g: 0.3283019, b: 0.3283019, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16208,7 +16208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6150943, g: 0.60232824, b: 0.60232824, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16312,7 +16312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1481254870
 Transform:
   m_ObjectHideFlags: 0
@@ -18364,6 +18364,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a5ce85998a38f6b4d9d8860ac8fcf217, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1721336978}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a5ce85998a38f6b4d9d8860ac8fcf217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721336980}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a5ce85998a38f6b4d9d8860ac8fcf217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721336979}
     - targetCorrespondingSourceObject: {fileID: -6453539753186742719, guid: a5ce85998a38f6b4d9d8860ac8fcf217, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1903945955}
@@ -18441,6 +18447,40 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.10207254, y: 0.91384053, z: 5.024108}
   m_Center: {x: -0.01907751, y: 0.44391894, z: 2.012054}
+--- !u!114 &1721336979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072889231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f2a1ecf332d5d940bf930fbf77839de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1721336980
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072889231}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 936a1b447056b544e9f0830c167a9e13, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1724560563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22022,7 +22062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.381132, g: 0.32432175, b: 0.32432175, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
