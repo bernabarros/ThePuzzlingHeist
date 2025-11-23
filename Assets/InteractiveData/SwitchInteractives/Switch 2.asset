@@ -20,5 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 238eb8b961685d7428dcc37b8de360bb, type: 2}
   requirementsMessage: 
   interactionMessages:
-  - Set switch On
   - Set switch Off
+  - Set switch On

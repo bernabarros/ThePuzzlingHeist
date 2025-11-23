@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: Switch 5
+  m_Name: CameraBlocker
   m_EditorClassIdentifier: 
-  type: 2
+  type: 3
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000, guid: 238eb8b961685d7428dcc37b8de360bb, type: 2}
-  requirementsMessage: 
-  interactionMessages:
-  - Set switch Off
-  - Set switch On
+  - {fileID: 11400000, guid: 3cffc057a319aae4681e76f5bb7411ad, type: 2}
+  requirementsMessage: Need to shutdown the cameras
+  interactionMessages: []
