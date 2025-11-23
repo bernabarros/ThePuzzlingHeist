@@ -1,16 +1,21 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SwitchState : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField][Range(0,1)] private int switchSetting = 1;
+    public int SwitchSetting => switchSetting;
+    public static event Action<SwitchState> OnAnyToggled;
+    public void OnInteractAnimation()
     {
-        
+        Toggle();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Toggle()
     {
-        
+        switchSetting = 1 - switchSetting;
+
+        OnAnyToggled?.Invoke(this);
     }
 }

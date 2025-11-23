@@ -1,15 +1,44 @@
-using Unity.VisualScripting;
+using System.Linq;
 using UnityEngine;
 
+[RequireComponent(typeof(Interactive))]
 public class CameraPuzzleManager : MonoBehaviour
 {
-    [SerializeField] public GameObject[] combination;
-    //public int[] correctCombination = {1,0,0,1,0,1,1,0};
+    public GameObject[] combination;
+    public int[] correctCombination = {0,1,1,0,1,0,0,1};
 
-
-    // Update is called once per frame
-    void Update()
+    private Animator animator;
+    void Awake()
     {
-        
+        animator = GetComponent<Animator>();
+    }
+
+    void OnEnable()
+    {
+        SwitchState.OnAnyToggled += CheckCombination;
+    }
+
+    void OnDisable()
+    {
+        SwitchState.OnAnyToggled -= CheckCombination;
+    }
+
+    public void CheckCombination(SwitchState _)
+    {
+        int[] currentCombination = new int[combination.Length];
+
+        for(int i = 0; i < combination.Length; i++)
+        {
+            SwitchState ss = combination[i].GetComponent<SwitchState>();
+            currentCombination[i] = ss.SwitchSetting;
+        }
+
+        if(currentCombination.SequenceEqual(correctCombination))
+        {
+            Debug.Log("correct combination");
+            Interactive interactive = GetComponent<Interactive>();
+            interactive.FulfillRequirements();
+            interactive.TriggerIndirect();
+        }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interactive : MonoBehaviour
 {
@@ -163,5 +164,17 @@ public class Interactive : MonoBehaviour
         requirement.PlayAnimation(_interactionManager.interactAnimationName);
 
         CheckRequirements();
+    }
+
+    //added code
+
+    public void TriggerIndirect()
+    {
+        InteractSelf(false);
+    }
+    public void FulfillRequirements()
+    {
+        _requirementsMet = true;
+        CheckDependentsRequirements(); 
     }
 }
