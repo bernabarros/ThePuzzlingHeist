@@ -35,7 +35,6 @@ public class CameraPuzzleManager : MonoBehaviour
 
         if(currentCombination.SequenceEqual(correctCombination))
         {
-            Debug.Log("correct combination");
             Interactive interactive = GetComponent<Interactive>();
             interactive.FulfillRequirements();
             interactive.TriggerIndirect();

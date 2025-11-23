@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: DisableLasers
+  m_Name: Crown
   m_EditorClassIdentifier: 
-  type: 2
+  type: 0
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: e81ce561ba7b2e846be770b7090616e8, type: 2}
   requirementsMessage: 
-  interactionMessages: []
+  interactionMessages:
+  - Retrieve Crown
