@@ -11491,6 +11491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aqueduct_Plate
       objectReference: {fileID: 0}
+    - target: {fileID: 2019240879649896364, guid: c225a2c29f967d24cb7b1573944b79f9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e6cbd0391288bf49b66b622223b71c0, type: 2}
     - target: {fileID: 3513219479038946462, guid: c225a2c29f967d24cb7b1573944b79f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.41
