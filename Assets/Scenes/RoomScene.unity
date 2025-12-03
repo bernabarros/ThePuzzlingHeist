@@ -19018,7 +19018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1481254870
 Transform:
   m_ObjectHideFlags: 0
@@ -25364,7 +25364,7 @@ MonoBehaviour:
   - {fileID: 1395497607}
   - {fileID: 1331038369}
   - {fileID: 705034385}
-  correctCombination: 0000000001000000010000000000000001000000000000000000000001000000
+  correctCombination: 0000000000000000010000000100000001000000010000000000000001000000
 --- !u!95 &2015425374
 Animator:
   serializedVersion: 7

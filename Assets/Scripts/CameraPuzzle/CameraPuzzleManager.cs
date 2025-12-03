@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraPuzzleManager : MonoBehaviour
 {
     public GameObject[] combination;
-    public int[] correctCombination = {0,1,1,0,1,0,0,1};
+    public int[] correctCombination = {0,0,1,1,1,1,0,1};
 
     private Animator animator;
     void Awake()
