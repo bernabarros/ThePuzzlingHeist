@@ -13507,10 +13507,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1178175279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077397492
 MonoBehaviour:
@@ -14563,6 +14563,8 @@ GameObject:
   - component: {fileID: 1178175279}
   - component: {fileID: 1178175281}
   - component: {fileID: 1178175280}
+  - component: {fileID: 1178175283}
+  - component: {fileID: 1178175282}
   m_Layer: 0
   m_Name: Interaction_panel
   m_TagString: Untagged
@@ -14588,7 +14590,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178175280
 MonoBehaviour:
@@ -14628,6 +14630,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178175278}
   m_CullTransparentMesh: 1
+--- !u!114 &1178175282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178175278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
+--- !u!114 &1178175283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178175278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 10
+    m_Right: 10
+    m_Top: 10
+    m_Bottom: 10
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &1185554822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f4b1fd3f4dd6ff7409c558e93cb3e45e, type: 3}
@@ -19067,8 +19109,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.0097156, y: 1.8081012, z: 0.43696484}
-  m_Center: {x: 0.08782196, y: 0.4040506, z: 0.257989}
+  m_Size: {x: 5.7693076, y: 1.8081012, z: 0.43696484}
+  m_Center: {x: -0.29197395, y: 0.4040506, z: 0.257989}
 --- !u!65 &1481254873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19088,8 +19130,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.9750085, y: 1.8025827, z: 0.325765}
-  m_Center: {x: 0.06726718, y: 0.40129137, z: 0.1937383}
+  m_Size: {x: 5.727329, y: 1.8025827, z: 0.325765}
+  m_Center: {x: -0.30889308, y: 0.40129137, z: 0.1937383}
 --- !u!95 &1481254874
 Animator:
   serializedVersion: 7
