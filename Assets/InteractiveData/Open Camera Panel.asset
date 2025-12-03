@@ -17,7 +17,7 @@ MonoBehaviour:
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000, guid: bc48c9894f49a1c4abe603bdd020a889, type: 2}
+  - {fileID: 11400000, guid: d0936c2c3dee5ad4ba0055a301075981, type: 2}
   requirementsMessage: Need to Move Cabinet First
   interactionMessages:
   - Open Panel
