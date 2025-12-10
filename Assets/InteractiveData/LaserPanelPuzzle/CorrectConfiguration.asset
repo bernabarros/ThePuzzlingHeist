@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: LaserShutdown
+  m_Name: CorrectConfiguration
   m_EditorClassIdentifier: 
   type: 3
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
-  requirements:
-  - {fileID: 11400000, guid: 6e016c78ed3c40c419f68083832a09e0, type: 2}
-  requirementsMessage: Need to find the panel to shutdown the lasers
+  requirements: []
+  requirementsMessage: 
   interactionMessages: []
