@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         UpdateRotation();
         UpdateHead();
-        CheckForJump();
+        //CheckForJump();
     }
 
     private void UpdateRotation()

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: CrownCaseOpen
+  m_Name: CodeButton 1
   m_EditorClassIdentifier: 
-  type: 3
+  type: 2
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
-  requirements:
-  - {fileID: 11400000, guid: a36e40937697a54418500bd035c54c26, type: 2}
-  requirementsMessage: Have to insert the code to open
-  interactionMessages: []
+  requirements: []
+  requirementsMessage: 
+  interactionMessages:
+  - Press 1
