@@ -17,6 +17,6 @@ MonoBehaviour:
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000, guid: b4e755f2cc7d3b249b1b5941ade30e74, type: 2}
+  - {fileID: 11400000, guid: a36e40937697a54418500bd035c54c26, type: 2}
   requirementsMessage: Have to open the case first
   interactionMessages: []
