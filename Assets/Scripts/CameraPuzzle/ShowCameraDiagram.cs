@@ -19,7 +19,7 @@ public class ShowCameraDiagram : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Interact") && diagramOpen)
+        if(Input.GetButtonDown("Cancel") && diagramOpen)
         {
             cameraDiagram.SetActive(false);
             diagramOpen = false;
