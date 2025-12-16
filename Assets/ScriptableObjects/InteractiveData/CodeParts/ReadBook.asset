@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: Open Camera Panel
+  m_Name: ReadBook
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
-  requirements:
-  - {fileID: 11400000, guid: d0936c2c3dee5ad4ba0055a301075981, type: 2}
-  requirementsMessage: Need to Move Cabinet First
+  requirements: []
+  requirementsMessage: 
   interactionMessages:
-  - Open Panel
+  - Read Book

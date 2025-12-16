@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
-  m_Name: AqueductCodePiece
+  m_Name: Multitool
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
   startsOn: 1
-  inventoryName: 
+  inventoryName: Multitool
   inventoryIcon: {fileID: 0}
   requirements: []
-  requirementsMessage: 
-  interactionMessages:
-  - "2\xBA Code Piece: 1"
+  requirementsMessage: Pickup Multitool
+  interactionMessages: []

@@ -34,6 +34,7 @@ public class InsertedCode : MonoBehaviour
                 codeNumbers = new int[3];
                 interactive.interactiveData.requirementsMessage = "";
                 isComplete = false;
+                currentIndex = 0;
             }
         }
     }

@@ -17,8 +17,8 @@ MonoBehaviour:
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000, guid: 238eb8b961685d7428dcc37b8de360bb, type: 2}
+  - {fileID: 11400000, guid: d6c599fa5a97aca4d908e3ea338a9b66, type: 2}
   requirementsMessage: 
   interactionMessages:
-  - On
-  - Off
+  - Switch Off
+  - Switch On

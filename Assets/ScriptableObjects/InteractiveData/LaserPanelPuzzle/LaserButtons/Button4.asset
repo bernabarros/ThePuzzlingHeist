@@ -19,10 +19,4 @@ MonoBehaviour:
   requirements: []
   requirementsMessage: 
   interactionMessages:
-  - None
-  - Red
-  - Yellow
-  - Blue
-  - Green
-  - Purple
-  - Orange
+  - Press Button

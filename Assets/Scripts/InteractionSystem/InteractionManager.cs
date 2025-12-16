@@ -63,7 +63,14 @@ public class InteractionManager : MonoBehaviour
             {
                 Interactive requirement = FindInteractive(requirementData);
                 interactive.AddRequirement(requirement);
-                requirement.AddDependent(interactive);
+                if(requirement == null || interactive == null)
+                {
+                    Debug.Log($"{requirement} {interactive}");
+                }
+                else
+                {
+                    requirement.AddDependent(interactive);
+                }
             }
         }
     }
