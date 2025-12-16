@@ -19,7 +19,7 @@ public class ShowBookContent : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Cancel") && bookOpen)
+        if(Input.GetKeyDown(KeyCode.C) && bookOpen)
         {
             bookContent.SetActive(false);
             bookOpen = false;
