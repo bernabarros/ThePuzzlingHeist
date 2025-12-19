@@ -19,4 +19,5 @@ MonoBehaviour:
   requirements: []
   requirementsMessage: 
   interactionMessages:
-  - Open Second Drawer
+  - Open Drawer
+  - Close Drawer
