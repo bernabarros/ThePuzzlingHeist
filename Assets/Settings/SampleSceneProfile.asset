@@ -42,7 +42,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {r: 1, g: 0.83584905, b: 0.85389507, a: 1}
   hueShift:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: -0
   saturation:
     m_OverrideState: 1
@@ -182,10 +182,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.326
+    m_Value: 0.213
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.269
+    m_Value: 0.291
   rounded:
     m_OverrideState: 1
     m_Value: 1
@@ -674,8 +674,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.6546624
-          value: 1
+          time: 0.55031055
+          value: 0.9841062
           inSlope: 0.22294906
           outSlope: 0.22294906
           tangentMode: 0
