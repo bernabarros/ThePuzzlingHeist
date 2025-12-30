@@ -5,6 +5,8 @@ public class ShowBookContent : MonoBehaviour
     [SerializeField] private GameObject bookContent;
     [SerializeField] private Animator contentAnimator;
     private bool bookOpen = false;
+
+    public static bool isReading = false;
     
     void Start()
     {
@@ -15,6 +17,7 @@ public class ShowBookContent : MonoBehaviour
     {
         bookContent.SetActive(true);
         bookOpen = true;
+        isReading = true;
     }
 
     void Update()
@@ -23,6 +26,8 @@ public class ShowBookContent : MonoBehaviour
         {
             bookContent.SetActive(false);
             bookOpen = false;
+            contentAnimator.SetTrigger("Close Content");
+            isReading = false;
         }
     }
 }

@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(ShowBookContent.isReading)
+            return;
         UpdateRotation();
         UpdateHead();
         //CheckForJump();
@@ -61,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(ShowBookContent.isReading)
+            return;
         UpdateVelocityHor();
         UpdateVelocityVer();
         UpdatePosition();
