@@ -97,7 +97,20 @@ public class Interactive : MonoBehaviour
     private void PickUpInteractive()
     {
         _playerInventory.Add(this);
+
+        //added code
+        if(interactiveData.isReadable)
+        {
+            Renderer renderer = GetComponent<Renderer>();
+            Collider collider = GetComponent<Collider>();
+
+            renderer.enabled = false;
+            collider.enabled = false;
+        }
+        else
+        {
         gameObject.SetActive(false);
+        }
     }
 
     private void DoDirectInteraction()
@@ -177,4 +190,14 @@ public class Interactive : MonoBehaviour
         _requirementsMet = true;
         CheckDependentsRequirements(); 
     }
+    public virtual void Read()
+{
+    if (interactiveData.isReadable)
+    {
+        ShowBookContent bookUI = GetComponent<ShowBookContent>();
+        if (bookUI != null)
+            bookUI.ShowContentBook();
+    }
+}
+
 }

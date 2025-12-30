@@ -6,6 +6,7 @@ public class InteractiveData : ScriptableObject
     public enum Type { Pickable, InteractOnce, InteractMulti, Indirect };
 
     public Type                 type;
+    public bool                 isReadable = false;
     public bool                 startsOn = true;
     public string               inventoryName;
     public Sprite               inventoryIcon;

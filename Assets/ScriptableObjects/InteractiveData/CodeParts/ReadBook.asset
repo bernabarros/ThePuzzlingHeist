@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
   m_Name: ReadBook
   m_EditorClassIdentifier: 
-  type: 2
+  type: 0
+  isReadable: 1
   startsOn: 1
-  inventoryName: 
+  inventoryName: Book
   inventoryIcon: {fileID: 0}
   requirements: []
   requirementsMessage: 

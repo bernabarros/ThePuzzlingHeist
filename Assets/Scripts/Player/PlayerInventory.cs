@@ -76,6 +76,7 @@ public class PlayerInventory : MonoBehaviour
     void Update()
     {
         CheckForPlayerSlotSelection();
+        CheckForReadInput();
     }
 
     private void CheckForPlayerSlotSelection()
@@ -84,4 +85,15 @@ public class PlayerInventory : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1 + i) && i != _selectedSlotIndex)
                 SelectInventorySlot(i);
     }
+
+    private void CheckForReadInput()
+{
+    if (Input.GetKeyDown(KeyCode.I))
+    {
+        Interactive selected = GetSelected();
+        if (selected != null)
+            selected.Read();
+    }
+}
+
 }

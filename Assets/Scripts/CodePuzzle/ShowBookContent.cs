@@ -19,11 +19,10 @@ public class ShowBookContent : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.C) && bookOpen)
+        if(Input.GetButtonDown("Interact") && bookOpen)
         {
             bookContent.SetActive(false);
             bookOpen = false;
-            contentAnimator.SetTrigger("Close Content");
         }
     }
 }
