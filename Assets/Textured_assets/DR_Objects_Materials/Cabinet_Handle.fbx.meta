@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf247f54f4b7e27428b00d94bc822045
+guid: 2ab091e1e3f0ba445b3b5d7b93cd691a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Modularmyroom_ParteRicardo_lambert2
-    second: {fileID: 2100000, guid: 630cfaa4f9dcdf04c91d830f02e3e0c4, type: 2}
+      name: Shader_HBase
+    second: {fileID: 2100000, guid: b999a38615ccb8c44a918f1ec40e3e95, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: window2
-    second: {fileID: 2100000, guid: 91929d47ae1f99d4aadcf75b3335e3d4, type: 2}
+      name: Shader_HConnects
+    second: {fileID: 2100000, guid: 5b8c0fd0d1c739841beb937c3a5dde83, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,7 +56,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
