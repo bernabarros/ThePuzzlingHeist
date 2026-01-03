@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Leave
   m_EditorClassIdentifier: 
   type: 1
+  isReadable: 0
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
-  - {fileID: 11400000, guid: 84ff50ecd0e7f3e47af66fcf611cefef, type: 2}
+  - {fileID: 11400000, guid: f6cb631d00f241340b3a2c93e7ab757e, type: 2}
   requirementsMessage: Cant Leave without the crown
   interactionMessages:
   - Leave

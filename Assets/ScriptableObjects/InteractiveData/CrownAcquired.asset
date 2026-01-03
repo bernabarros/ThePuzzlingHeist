@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2374069757ac4434792fc2974312beac, type: 3}
   m_Name: CrownAcquired
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
   isReadable: 0
   startsOn: 1
   inventoryName: 
