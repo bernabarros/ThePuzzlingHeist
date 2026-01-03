@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Drawer_Sounds : MonoBehaviour
+public class DrawerSounds : MonoBehaviour
 {
     [SerializeField]private AudioClip openSound;
     [SerializeField]private AudioClip closeSound;

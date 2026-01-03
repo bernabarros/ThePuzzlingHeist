@@ -3,7 +3,6 @@ using UnityEngine;
 public class LaserShutdown : MonoBehaviour
 {
     MeshRenderer[] meshRenderers;
-
     void Awake()
     {
         meshRenderers = GetComponentsInChildren<MeshRenderer>();
