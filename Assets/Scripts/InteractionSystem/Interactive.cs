@@ -101,10 +101,13 @@ public class Interactive : MonoBehaviour
         //added code
         if(interactiveData.isReadable)
         {
-            Renderer renderer = GetComponent<Renderer>();
+            Renderer[] renderers = GetComponentsInChildren<Renderer>();
             Collider collider = GetComponent<Collider>();
 
-            renderer.enabled = false;
+            foreach(Renderer renderer in renderers)
+            {
+                renderer.enabled = false;
+            }
             collider.enabled = false;
         }
         else

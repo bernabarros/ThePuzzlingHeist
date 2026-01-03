@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: AqueductClue
   m_EditorClassIdentifier: 
   type: 1
+  isReadable: 0
   startsOn: 1
   inventoryName: 
   inventoryIcon: {fileID: 0}
   requirements:
   - {fileID: 11400000, guid: 1f208e6386a4c494981471148f742710, type: 2}
-  requirementsMessage: It says the Aqueduct was built in 1 century
+  requirementsMessage: It says the Aqueduct of Lisbon was built by order of King
+    John V
   interactionMessages: []

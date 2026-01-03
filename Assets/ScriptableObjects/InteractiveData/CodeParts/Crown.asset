@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Crown
   m_EditorClassIdentifier: 
   type: 0
+  isReadable: 0
   startsOn: 1
   inventoryName: Crown
-  inventoryIcon: {fileID: 0}
+  inventoryIcon: {fileID: 21300000, guid: 3e22f5b497d95384e844a87dd68c0b28, type: 3}
   requirements:
   - {fileID: 11400000, guid: e81ce561ba7b2e846be770b7090616e8, type: 2}
   requirementsMessage: 
