@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +8,10 @@ public class PlayerInventory : MonoBehaviour
 
     private PlayerInteraction   _playerInteraction;
     private List<Interactive>   _inventory;
+    public List<Interactive> Inventory => _inventory;
     private int                 _selectedSlotIndex;
+
+    public static event Action<PlayerInventory> OnAnyItemAdded;
 
     void Start()
     {
@@ -24,6 +28,7 @@ public class PlayerInventory : MonoBehaviour
 
         if (_selectedSlotIndex == -1)
             SelectInventorySlot(0);
+            OnAnyItemAdded?.Invoke(this);
     }
 
     public void Remove(Interactive item)
