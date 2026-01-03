@@ -15,12 +15,14 @@ public class ShowCameraDiagram : MonoBehaviour
     {
         cameraDiagram.SetActive(true);
         diagramOpen = true;
+        ShowBookContent.isReading = true;
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.C) && diagramOpen)
+        if(Input.GetButtonDown("Interact") && diagramOpen)
         {
+            ShowBookContent.isReading = false;
             cameraDiagram.SetActive(false);
             diagramOpen = false;
             diagramAnimator.SetTrigger("CloseDiagram");

@@ -18,6 +18,8 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
+        if(ShowBookContent.isReading)
+            return;
         UpdateCurrentInteractive();
         CheckForPlayerInteraction();
     }
