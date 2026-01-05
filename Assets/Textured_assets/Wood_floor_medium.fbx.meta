@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 579fe6dab0e8ca54c831f90b812fdf88
+guid: 5ebb318799c46f24783f2e7cd212df18
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: border2
-    second: {fileID: 2100000, guid: bf18683484992554fb609e4e31fccab8, type: 2}
+      name: lambert2
+    second: {fileID: 2100000, guid: 391ade15eb0bcf74aa97317e34ae8e36, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -51,7 +51,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

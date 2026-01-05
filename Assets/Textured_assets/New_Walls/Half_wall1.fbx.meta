@@ -3,7 +3,12 @@ guid: 09964a47225c79d4c8c8028b352a2964
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Modularmyroom_ParteRicardo_lambert2
+    second: {fileID: 2100000, guid: eabc0397b9c9369498614835e30ff3b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
