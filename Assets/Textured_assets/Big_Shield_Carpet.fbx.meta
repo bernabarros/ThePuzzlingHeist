@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Project_Props_lambert2
-    second: {fileID: 2100000, guid: 82b4183bfaf11c448bb2bf7bbad7105f, type: 2}
+    second: {fileID: 2100000, guid: 0d12541927be9ee4f925421f165631e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -51,7 +51,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
