@@ -2074,8 +2074,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.10302448, y: 0.9304203, z: 2.000002}
-  m_Center: {x: -0.5576148, y: 0.3698362, z: -12.754033}
+  m_Size: {x: 2.000002, y: 2, z: 0.09293747}
+  m_Center: {x: 0, y: 0, z: -0.17993629}
 --- !u!1001 &190335904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5334,12 +5334,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.009595457, y: 0.47327396, z: 0.79394716}
-  m_Center: {x: 0.010073772, y: 0, z: -0.39697382}
+  m_Size: {x: 0.783782, y: 0.46721458, z: 0.039640505}
+  m_Center: {x: -0.39189118, y: 0, z: 0.0050001927}
 --- !u!1001 &410779512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5479,12 +5479,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.028617062, y: 0.037378192, z: 0.057945967}
-  m_Center: {x: -0.014308374, y: 0.01868919, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.037378192, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: 0.01868919, z: 0.009496294}
 --- !u!82 &415029657
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13406,12 +13406,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.027470984, y: 0.037378192, z: 0.057945967}
-  m_Center: {x: -0.013735335, y: -0.018689197, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.037378192, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: -0.018689197, z: 0.009496294}
 --- !u!114 &836368919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16172,12 +16172,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.03093592, y: 0.03737831, z: 0.057945967}
-  m_Center: {x: -0.015467804, y: -0.0186891, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.03737831, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: -0.0186891, z: 0.009496294}
 --- !u!114 &1031969252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18327,12 +18327,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.029064335, y: 0.03737831, z: 0.057945967}
-  m_Center: {x: -0.014532011, y: -0.018689018, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.03737831, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: -0.018689018, z: 0.009496294}
 --- !u!114 &1138764020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24480,12 +24480,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.031574644, y: 0.03737831, z: 0.057945967}
-  m_Center: {x: -0.015787166, y: 0.018689226, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.03737831, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: 0.018689226, z: 0.009496294}
 --- !u!114 &1539184344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27889,12 +27889,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0346388, y: 0.03737831, z: 0.057945967}
-  m_Center: {x: -0.017319243, y: -0.0186891, z: 0.028972827}
+  m_Size: {x: 0.05794525, y: 0.03737831, z: 0.01899147}
+  m_Center: {x: 0.02897235, y: -0.0186891, z: 0.009496294}
 --- !u!114 &1774416166
 MonoBehaviour:
   m_ObjectHideFlags: 0
